@@ -1,0 +1,451 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<title>Wodociągi</title>
+    
+<!---------------------- META -------------------------->
+    
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Synbios Creative Studio"/> 
+	<meta name="description" content="" /> 
+    
+<!----------------------- STYLES ----------------------->
+    
+    <!-- Bootstrap CSS
+	============================================ -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Icon Font CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.css">
+    <!-- Plugins CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="vendor/lightbox/lightbox.min.css">
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <link rel="stylesheet" href="vendor/slick/slick-theme.css"> 
+    <!-- Style CSS
+	============================================ -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Modernizer JS
+ 
+<!--------------------- OTHERS ----------------------------->
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+
+<body id="kontrast">
+<button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+</button> 
+
+<!-- Body main wrapper start -->
+<div class="wrapper fix">
+
+<!------------------ NAVBAR START ---------------------->
+<!--
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#">O Nas</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="offer.html">Oferta</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="news.html">Aktualności</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="contact.html">Kontakt</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <button type="button" id="change">Change Color</button>
+        </li>
+        <li class="sidebar-nav-item">
+          <button type="button" id="backToNormal">Normal Color</button>
+        </li>
+        <li class="sidebar-nav-item">
+          <button type="button" onclick="smallerFont()">Smaller Font</button>
+        </li>
+        <li class="sidebar-nav-item">
+          <button type="button" onclick="normalFont()">Normal Font</button>
+        </li>
+        <li class="sidebar-nav-item">
+          <button type="button" onclick="biggerFont()">Bigger Font</button>
+        </li>
+      </ul>
+    </nav>
+-->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/logo-deszcztozysk.svg"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="img/if_ic_menu_48px_352539.png">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto" id="UL1">
+            <li class="nav-link bot-border dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" id="NL1" href="#">O PROJEKCIE<span class="pl-1 icon-arrow-down"></span>
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu sub-menu animated fadeIn kontrast-menu-item">
+                  <li><a href="lista.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Lista Zastosowań</a></li>
+                  <li><a href="lista.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Pozycja 2</a></li>
+                  <li><a href="lista.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Pozycja 2</a></li>
+                </ul>
+            </li>
+            <li class="nav-link bot-border dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" id="NL2" href="#">ZASTOSOWANIE<span class="pl-1 icon-arrow-down"></span>
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu sub-menu animated fadeIn kontrast-menu-item" id="UL2">
+                  <li><a href="domy-jednorodzinne.html" class="kontrast-menu-item" id="NL9"><span class="pr-1 icon-arrow-right"></span>Domy Jednorodzinne</a></li>
+                  <li><a href="drogi.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Drogi</a></li>
+                  <li><a href="osiedla.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Osiedla</a></li>
+                  <li><a href="parki.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Parki</a></li>
+                  <li><a href="zwarta.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Zabudowa Zwarta</a></li>
+                  <li><a href="parkingi.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Parkingi</a></li>
+                </ul>
+            </li>
+            <li class="nav-link bot-border dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"  id="NL3"href="#">ROZWIĄZANIA<span class="pl-1 icon-arrow-down"></span>
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu sub-menu animated fadeIn kontrast-menu-item" id="UL3">
+                  <li><a href="rozwiazanie.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Powierzchnie Przepuszczalne Utwardzone</a></li>
+                  <li><a href="rozwiazanie.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Pozycja 2</a></li>
+                  <li><a href="rozwiazanie.html" class="kontrast-menu-item"><span class="pr-1 icon-arrow-right"></span>Pozycja 2</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" id="NL4" href="news.html">AKTUALNOŚCI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" id="NL5" href="contact.html">KONTAKT</a>
+            </li>
+<!--
+            <li class="nav-item">
+              <button type="button" id="change">A</button> 
+            </li>
+            <li class="nav-item">
+              <button type="button" id="backToNormal">A</button> 
+            </li>
+-->
+            <li class="nav-item">
+              <button type="button" onclick="kontrast()">A</button> 
+            </li>
+            <li class="nav-item">
+              <button type="button" onclick="normal()">A</button> 
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!------------------ NAVBAR END ---------------------->
+
+<!------------------ HEADER START -------------------->    
+
+<header class="main-page-header" id="kontrastHeader">
+    
+<div class="container">
+    <div>
+        <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-lg-5 pb-3">
+                <div class="title">
+                    <h1 id="kontrastHeaderTitle">WYKORZYSTAJMY SIŁĘ DESZCZU <br>Z NIEBA!</h1>
+                </div>
+                <div class="pt-4 mobile-img d-block d-lg-none">
+                    <img src="img/head.png" class="img-fluid">
+                </div>
+                <div class="title2 pt-4">
+                    <h2>Projekt DESZCZ TO ZYSK to inwestycja miasta, realizowana przez spółkę Miejskie Wodociągi i Kanalizacja w Bydgoszczy</h2>
+                </div>
+                <div class="head-button pt-5">
+                    <a class="btn btn-primary" role="button" href="lista.html">WIĘCEJ O PROGRAMIE<span class="pl-1 icon-arrow-right"></span></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 d-none d-lg-block">
+                <div class="logo2">
+                    <img src="img/head.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="header-bottom crema-pol">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <polygon id="kontrastCremaPol1"  points="0,100 100,110 100,40 20,90"/>
+    </svg>
+</div>    
+    
+</header>     
+<!------------------ HEADER END ---------------------->
+    
+<!------------------ ABOUT START ---------------------> 
+    
+<section class="sec-main-1 first" id="kontrastSec1">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-9 col-lg-8 text-center pb-5">
+                <div class="page-head">
+                    <div class="page-title" id="kontrastSec1Title">NIECH TWOJE OTOCZENIE CHŁONIE JAK GĄBKA</div>
+                </div>
+            </div>
+            <div class="col-12 text-center pb-4">
+                <div class="page-head">
+                    <div class="page-head-content" id="kontrastSec1Content"><p>Adipisicing quo excepteur enim ad malis instituendarum legam instituendarum nisi 
+                        eram admodum firmissimum duis mandaremus si pariatur eruditionem dolore 
+                        transferrem iudicem aute esse philosophari se philosophari</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="main-slider">
+                    <div class="main-single-slide">
+                        <a href="domy-jednorodzinne.html">
+                            <img src="img/grafiki/sys-jednorodzinne.png" class="img-fluid">
+                            <div class="text-center" id="kontrastSec1Opis1">DOMY JEDNORODZINNE</div>
+                        </a>
+                    </div>
+                    <div class="main-single-slide">
+                        <a href="drogi.html">
+                            <img src="img/grafiki/sys-drogi.png" class="img-fluid">
+                            <div class="text-center" id="kontrastSec1Opis2">DROGI</div>
+                        </a>
+                    </div>
+                    <div class="main-single-slide">
+                        <a href="osiedla.html">
+                            <img src="img/grafiki/sys-osiedla.png" class="img-fluid">
+                            <div class="text-center" id="kontrastSec1Opis3">OSIEDLA</div>
+                        </a>
+                    </div>
+                    <div class="main-single-slide">
+                        <a href="parki.html">
+                            <img src="img/grafiki/sys-parki.png" class="img-fluid">
+                            <div class="text-center" id="kontrastSec1Opis4">PARKI</div>
+                        </a>
+                    </div>
+                    <div class="main-single-slide">
+                        <a href="zwarta.html">
+                            <img src="img/grafiki/sys-zwarta.png" class="img-fluid">
+                            <div class="text-center" id="kontrastSec1Opis5">ZABUDOWA ZWARTA</div>
+                        </a>
+                    </div>
+                    <div class="main-single-slide">
+                        <a href="parkingi.html">
+                            <img src="img/grafiki/sys-parkingi.png" class="img-fluid">
+                            <div class="text-center" id="kontrastSec1Opis6">PARKINGI</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="header-bottom blue-pol">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon id="kontrastBluePol1" points="0,100 100,110 100,40 20,90"/>
+            </svg>
+        </div>
+</section>
+    
+
+    
+<!-- ABOUT END --> 
+    
+
+    
+<!-- NEWS START -->
+<section class="main-news" id="kontrastSec2">   
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="t-title text-center">
+                    <div class="page-head">
+                        <div class="page-title" id="kontrastSec2Title">
+                            AKTUALNOŚCI
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="row" id="mainNews">
+            <div class="col-md-6 mb-3">
+                <div class="single-news kontrast-menu-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="n-photo">
+                                <a href="single-post.html"><img src="img/mockup.jpg" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="n-desc d-flex flex-column justify-content-between">
+                                <div class="n-title"><a href="single-post.html" class="kontrast-menu-item">Dołącz do programu deszcz to zysk</a></div>
+                                <div class="n-text kontrast-menu-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p></div>
+                                <div class="read-more">
+                                    <a href="single-post.html" class="kontrast-menu-item">czytaj więcej<i class="pl-3 fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="single-news kontrast-menu-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="n-photo">
+                                <a href="single-post.html"><img src="img/mockup.jpg" class="img-fluid"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="n-desc d-flex flex-column justify-content-between">
+                                <div class="n-title"><a href="single-post.html" class="kontrast-menu-item">Dołącz do programu deszcz to zysk</a></div>
+                                <div class="n-text kontrast-menu-item"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p></div>
+                                <div class="read-more">
+                                    <a href="single-post.html" class="kontrast-menu-item">czytaj więcej<i class="pl-3 fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <!-- Pagination -->
+      <ul class="pt-4 pagination justify-content-center">
+        <li class="page-item">
+          <a class="px-2" href="#"><i class="fa fa-circle-thin" aria-hidden="true"></i></a>
+        </li>
+        <li class="page-item">
+          <a class="px-2" href="#"><i class="fa fa-circle" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+</section>
+
+    
+<!-- NEWS END -->
+    
+<!------------------FOOTER START---------------->
+<footer class="mt-0" id="kontrastFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-8">
+                <div class="footer-contact">
+					<address>
+                    <abbr>Miejskie Wodociągi i Kanalizacja w Bydgoszczy - spółka z o. o.</abbr><br>
+					 <abbr>ul. Toruńska 103</abbr><br>
+					 <abbr></abbr>85-817 Bydgoszcz<br>
+					</address>
+                </div>
+            </div>
+<!--
+            <div class="col-lg-5 col-12">
+                <ul class="smallmenu">
+                    <li><a href="offer.html">Link 1</a></li>
+                    <li><a href="offerhouse.html">Link 2</a></li>
+                    <li><a href="team.html">Link 3</a></li>
+                    <li><a href="gallery.html">Link 4</a></li>
+                    <li><a href="blog.html">Link 5</a></li>
+                </ul>
+            </div>
+-->
+<!--
+            <div class="col-lg-2 col-12">
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                </div>
+            </div>
+-->
+        </div>
+    </div>
+    
+
+</footer>
+
+
+</div>
+<!-- Body main wrapper end -->
+    
+<section class="smallfooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                    <h4>Powered by <a href="http://synbios.pl/" target="_blank">Synbios Creative Studio</a></h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- The Modal -->
+<div class="modal fade px-0" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header justify-content-center">
+          <h5 class="modal-title">Prosimy o podanie swojego kodu pocztowego</h5>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+              <fieldset>
+                  <div class="container">
+                      <div class="row justify-content-center">
+                          <div class="col-9 col-lg-4">
+                            <div class="form-group mt-1">
+                                <input type="text" class="form-control text-center" required="required" placeholder="00-000" pattern= "[0-9]{2}\-[0-9]{3}">
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </fieldset>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Wyślij</button>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+<!-- JS -->
+
+<!-- jQuery JS
+============================================ -->
+<script src="vendor/jquery/jquery.js"></script>
+<!-- Bootstrap JS
+============================================ -->
+<script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+<!-- Plugins JS
+============================================ -->
+<script src="js/plugins.js"></script>
+<!-- Parallax-scroll JS
+============================================ -->
+<script src="js/jquery.parallax-scroll.js"></script>
+<!-- jQuery Easing JS
+============================================ -->
+<script src="vendor/jquery-easing/jquery.easing.js"></script>
+<!-- Slick JS
+============================================ -->
+<script src="vendor/slick/slick.js"></script>
+<!-- Lightbox JS
+============================================ -->
+<script src="vendor/lightbox/lightbox.js"></script>
+<!-- Main JS
+============================================ -->
+<script src="js/main.js"></script>
+</body>
+
+</html>

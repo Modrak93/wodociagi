@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="62px" viewBox="0 0 45 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>pin-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="pin-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M22.5,0 C10.093433,0 0,10.0728326 0,22.4539571 C0,37.8193195 20.1352958,60.3765697 20.9925739,61.3293365 C21.7977964,62.2243415 23.2036597,62.2227672 24.0074261,61.3293365 C24.8647042,60.3765697 45,37.8193195 45,22.4539571 C44.9997573,10.0728326 34.9064457,0 22.5,0 Z" id="Shape" stroke="#FFFFFF" stroke-width="2" fill="#0579BA" fill-rule="nonzero"></path>
+            <text id="1" font-family="Lato-Bold, Lato" font-size="28" font-weight="bold" fill="#FFFFFF">
+                <tspan x="14" y="34">1</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
